@@ -89,6 +89,7 @@ const UI = {
                     <div class="results__card-icon">📏</div>
                     <div class="results__card-label">Distância</div>
                     <div class="results__card-value">${this.formatNumber(data.distance, 0)} km</div>
+                    <div class="results__card-subtitle">${this.formatNumber(Calculator.convertKmToMeters(data.distance), 0)} metros</div>
                 </div>
                 
                 <!-- Emission Card -->
