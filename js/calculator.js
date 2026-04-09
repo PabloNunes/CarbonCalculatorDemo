@@ -96,6 +96,15 @@ const Calculator = {
     },
 
     /**
+     * Convert a distance from kilometers to meters
+     * @param {number} distanceKm - Distance in kilometers
+     * @returns {number} Distance in meters
+     */
+    convertKmToMeters: function(distanceKm) {
+        return distanceKm * 1000;
+    },
+
+    /**
      * Estimate price range for carbon credits in BRL
      * @param {number} credits - Number of carbon credits
      * @returns {object} Object with min, max, and average prices in BRL
